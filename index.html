@@ -5,41 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About me</title>
     <link rel="icon" type="image/png" href="/assets/img/me.PNG"/>
-    <link rel="stylesheet" href="./assets/styles/index.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap" rel="stylesheet">
-    
+
+    <link rel="stylesheet" href="./assets/styles/reset.css">
+    <link rel="stylesheet" href="./assets/styles/components/title.css">
+    <link rel="stylesheet" href="./assets/styles/components/subtitle.css">
+    <link rel="stylesheet" href="./assets/styles/components/buttons.css">
+    <link rel="stylesheet" href="./assets/styles/components/box.css">
+    <link rel="stylesheet" href="./assets/styles/components/header.css">
+    <link rel="stylesheet" href="./assets/styles/components/action.css">
 </head>
 <body>
-    <header>
-       <img src="./assets/images/me.PNG" alt="Meu ícone" width="60" height="65" class="myicon">
+    <header class="header_main">
+       <img src="./assets/images/me.PNG" alt="Meu ícone" width="60" height="65">
        <nav>
-            <a href="index.html" lang="en">Skills</a>
-            <a href="index.html">Projetos</a>
-            <a href="index.html">Sobre</a>
-            <a href="index.html">Contato</a>
-            <button class="downloadcv_header" lang="en">Download Cv</button>
+            <a href="index.html" lang="en" class="a_link">Skills</a>
+            <a href="index.html" class="a_link">Projetos</a>
+            <a href="index.html" class="a_link">Sobre</a>
+            <a href="index.html" class="a_link">Contato</a>
+            <a class="a_button" lang="en">Download Cv</a>
        </nav>
     </header>
     
-    <div class="container">
-        <div class="nome_funcao">
-            <div class="nome_funcao_1e2">
-                <div class="quadrado">
-                    <h1>Yuri Gabriel</h1> 
-                    <h2>Web Developer</h2>
-                </div>
-            </div>
-            <div class="nome_funcao_botoes">
-                <button class ="botao_container">Download Cv</button>
-                <button class ="botao_container">Contatos</button>
-            </div>
-        </div>
-
-        <div>
-            <img src="./assets/images/file.enc" alt="meu rosto" class="image_myface">
-        </div>
+    <div class="box">
+        <h1 class="title">Yuri Gabriel</h1>
+        <h2 class="subtitle">Web developer</h2>
+        <a class="a_button" lang="en">Download Cv</a>
+        <a class="a_button">Contatos</a>
     </div>
 </body>
 </html>

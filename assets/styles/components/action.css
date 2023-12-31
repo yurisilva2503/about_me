@@ -1,0 +1,25 @@
+.a_link{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    border-radius: 5px;
+    text-shadow: #131313 1px 1px 1px;
+}
+
+.a_link:hover{
+    color: #F77F00;
+}
+
+.a_link::before{
+    content: "";
+    vertical-align: middle;
+    background-color: #F77F00;
+    width: 5px;
+    height: 5px;
+    margin-right:5px;
+    display: inline-block;
+}

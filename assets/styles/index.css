@@ -79,7 +79,7 @@ a::before{
 .image_myface{
     width: 30vw;
     height: 100%;
-    filter: grayscale(50%) brightness(80%);
+    filter: grayscale(25%) brightness(75%);
     border-left: #000 solid 5px;
 }
 

@@ -1,0 +1,29 @@
+.main-skills{
+    background-color: #424141;
+    justify-content: center;
+    border-bottom: 5px solid #F77F00;
+}
+
+.wrapper_skills{
+    padding: 30px 10px;
+}
+
+.container_skills{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    margin-right: 125px;
+    margin-left: 125px;
+}
+
+.skills_box{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.icon_skills{
+    width: 70px;
+    height: auto;
+    margin-right: 10px;
+}

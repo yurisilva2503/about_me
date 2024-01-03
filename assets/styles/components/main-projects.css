@@ -1,23 +1,23 @@
-.projects{
+.main-projects{
     background-color: #000;
     border-bottom: 5px solid #F77F00;
 }
 
-.projects .wrapper_projects{
+.main-projects .wrapper_projects{
     padding: 30px 10px;
 }
 
-.projects .projects_title{
+.main-projects .projects_title{
     text-align: center;
     margin-bottom: 40px;
 }
 
-.projects .container_projects{
+.main-projects .container_projects{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
-.projects .project_icon{
+.main-projects .project_icon{
     box-shadow: 5px 5px 0px #F77F00;
 }

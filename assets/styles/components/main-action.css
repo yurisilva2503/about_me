@@ -1,4 +1,4 @@
-.a_link{
+.main-a_link{
     color: #fff;
     font-size: 18px;
     text-decoration: none;
@@ -10,11 +10,11 @@
     text-shadow: #131313 1px 1px 1px;
 }
 
-.a_link:hover{
+.main-a_link:hover{
     color: #F77F00;
 }
 
-.a_link::before{
+.main-a_link::before{
     content: "";
     vertical-align: middle;
     background-color: #F77F00;

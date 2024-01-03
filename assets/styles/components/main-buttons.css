@@ -1,5 +1,6 @@
-.a_button{
+.main-a_button{
     display: inline-block;
+    text-decoration: none;
     font-size: 18px;
     color:#fff;
     font-weight: 500;
@@ -9,9 +10,15 @@
     padding: 15px 17px;
     border:none;
     border-radius: 5px;
+    transition: all 0.3s;
 }
 
-.a_button:hover{
+.main-a_button:hover{
     background-color: #c46501;
     transform: scale(1.04);
+}
+
+.main-a_button.-second{
+    width: 125px;
+    text-align: center;
 }

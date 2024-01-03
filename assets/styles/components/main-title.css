@@ -1,0 +1,17 @@
+.main-title{
+    text-shadow: #000 4px 4px 0px;
+    color: #F77F00;
+    font-size: 70px;
+}
+
+.main-title.-second{
+    color: white;
+    font-size: 40px;
+    text-shadow: none;
+}
+
+.main-title_section{
+    text-align: center;
+    margin-bottom: 30px;
+}
+

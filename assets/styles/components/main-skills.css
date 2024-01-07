@@ -12,8 +12,8 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
-    margin-right: 125px;
-    margin-left: 125px;
+    margin-right: 180px;
+    margin-left: 180px;
 }
 
 .skills_box{

@@ -1,23 +1,36 @@
 .main-projects{
-    background-color: #000;
+    background-color: #272727;
     border-bottom: 5px solid #F77F00;
 }
 
-.main-projects .wrapper_projects{
+.wrapper_projects{
     padding: 30px 10px;
 }
 
-.main-projects .projects_title{
+.projects_title{
     text-align: center;
     margin-bottom: 40px;
 }
 
-.main-projects .container_projects{
+.container_projects{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
-.main-projects .project_icon{
-    box-shadow: 5px 5px 0px #F77F00;
+.project_icon{
+    box-shadow: 5px 5px 0px #000;
+    width: 200px;
+}
+
+.project_icon.-first{
+    background-color: #E22023;
+}
+
+.project_icon.-second{
+    background-color: #0D558C;
+}
+
+.project_icon.-third{
+    background-color: #1E6E50;
 }

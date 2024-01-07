@@ -4,65 +4,14 @@
     font-size: 20px;
 }
 
-.bar{
-    display: block;
-    width: 320px;
+.progress_bar{
+    box-sizing: border-box;
+    background-color: #424141;
+    border: #000 solid 3px;
     height: 30px;
-    border: #000 5px solid;
 }
 
-.progress_html{
-    display: block;
-    width: 25%;
-    height: 100%;
+.progress_bar::-webkit-progress-bar,
+.progress_bar::-moz-progress-bar{
     background-color: #F77F00;
-}
-
-.progress_nodejs{
-    display: block;
-    width: 5%;
-    height: 100%;
-    background-color: #F77F00;
-}
-
-.progress_css{
-    display: block;
-    width: 20%;
-    height: 100%;
-    background-color: #F77F00;
-}
-
-.progress_tdd{
-    display: block;
-    width: 0%;
-    height: 100%;
-    background-color: #F77F00;
-}
-
-.progress_js{
-    display: block;
-    width: 5%;
-    height: 100%;
-    background-color: #F77F00;
-}
-
-.progress_restapi{
-    display: block;
-    width: 5%;
-    height: 100%;
-    background-color: #F77F00;
-}
-
-.progress_react{
-    display: block;
-    width: 5%;
-    height: 100%;
-    background-color: #F77F00;
-}
-
-.progress_ux{
-    display: block;
-    width: 10%;
-    height: 100%;
-    background-color: #F77F00;
-}
+  }

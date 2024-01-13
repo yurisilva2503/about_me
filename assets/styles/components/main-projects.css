@@ -1,6 +1,6 @@
 .main-projects{
     background-color: #272727;
-    border-bottom: 5px solid #F77F00;
+    border-bottom: 5px solid #000;
 }
 
 .wrapper_projects{
@@ -14,8 +14,8 @@
 
 .container_projects{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 100px;
 }
 
 .project_icon{

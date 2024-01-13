@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About me</title>
-    <link rel="icon" type="image/png" href="/assets/img/me.PNG"/>
+    <link rel="icon" type="image/png" href="./assets/images/me.PNG"/>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,6 +21,10 @@
     <link rel="stylesheet" href="./assets/styles/components/main-skills.css">
     <link rel="stylesheet" href="./assets/styles/components/bar.css">
     <link rel="stylesheet" href="./assets/styles/components/main-projects.css">
+    <link rel="stylesheet" href="./assets/styles/components/main-sobre.css">
+    <link rel="stylesheet" href="./assets/styles/components/main-paragraph.css">
+    <link rel="stylesheet" href="./assets/styles/components/main-carousel.css">
+    <link rel="stylesheet" href="./assets/styles/components/node-card.css">
 </head>
 <body>
     <header class="main-header">
@@ -36,7 +40,7 @@
     
     <section class="main-banner">
         <div class="wrapper_banner">
-            <div class="banner_box">
+            <div class="banner">
                 <h1 class="main-title">Yuri Gabriel</h1>
                 <h2 class="main-subtitle">Web developer</h2>
             </div>
@@ -48,76 +52,76 @@
     </section>
 
     <section class="main-skills">
-        <div class="wrapper_skills">
+        <article class="wrapper_skills">
             <div class="main-title_section">
                 <h1 class="main-title -second">Skills</h1>
             </div>
 
-            <article class="container_skills">
-                <div class="skills_box">
+            <div class="container_skills">
+                <article class="skill">
                     <img src="./assets/images/ico_html5.png" alt="icon html5" class="icon_skills">
                     <div class="titlebar">
                         <h2 class="main-subtitle -second">HTML</h2>
-                        <progress class="progress_bar" max="100" value="25"></progress>
+                        <progress class="progress_bar" max="100" value="25" aria-label="Progresso em HTML: 25%"></progress>
                     </div>
-                </div>
+                </article>
 
-                <div class="skills_box">
+                <article class="skill">
                     <img src="./assets/images/ico_nodejs.png" alt="icon nodejs" class="icon_skills">
                     <div class="titlebar">
                         <h2 class="main-subtitle -second">NodeJs</h2>
-                        <progress class="progress_bar" max="100" value="10"></progress>
+                        <progress class="progress_bar" max="100" value="10" aria-label="Progresso em NodeJs: 15%"></progress>
                     </div>
-                </div>
+                </article>
 
-                <div class="skills_box">
+                <article class="skill">
                     <img src="./assets/images/ico_css3.png" alt="icon css2" class="icon_skills">
                     <div class="titlebar">
                         <h2 class="main-subtitle -second">CSS</h2>
-                        <progress class="progress_bar" max="100" value="25"></progress>
+                        <progress class="progress_bar" max="100" value="25" aria-label="Progresso em Css: 25%"></progress>
                     </div>
-                </div>
+                </article>
 
-                <div class="skills_box">
+                <article class="skill">
                     <img src="./assets/images/ico_tdd.png" alt="icon tdd" class="icon_skills">
                     <div class="titlebar">
                         <h2 class="main-subtitle -second">TDD</h2>
-                        <progress class="progress_bar" max="100" value="0"></progress>
+                        <progress class="progress_bar" max="100" value="0" aria-label="Progresso em TDD: 25%"></progress>
                     </div>
-                </div>
+                </article>
             
-                <div class="skills_box">
+                <article class="skill">
                     <img src="./assets/images/ico_js.png" alt="icon javascript" class="icon_skills">
                     <div class="titlebar">
                         <h2 class="main-subtitle -second">JavaScript</h2>
-                        <progress class="progress_bar" max="100" value="10"></progress>
+                        <progress class="progress_bar" max="100" value="10" aria-label="Progresso em JavaScript: 10%"></progress>
                     </div>
-                </div>
+                </article>
 
-                <div class="skills_box">
+                <article class="skill">
                     <img src="./assets/images/ico_restapi.png" alt="icon restapi" class="icon_skills">
                     <div class="titlebar">
                         <h2 class="main-subtitle -second">Rest API</h2>
-                        <progress class="progress_bar" max="100" value="10"></progress>
+                        <progress class="progress_bar" max="100" value="10" aria-label="Progresso em RestAPI: 10%"></progress>
                     </div>
-                </div>
+                </article>
 
-                <div class="skills_box">
+                <article class="skill">
                     <img src="./assets/images/ico_react.png" alt="icon react" class="icon_skills">
                     <div class="titlebar">
                         <h2 class="main-subtitle -second">React</h2>
-                        <progress class="progress_bar" max="100" value="10"></progress>
+                        <progress class="progress_bar" max="100" value="10" aria-label="Progresso em React: 10%"></progress>
                     </div>
-                </div>
+                </article>
 
-                <div class="skills_box">
+                <article class="skill">
                     <img src="./assets/images/ico_ux.png" alt="icon ux" class="icon_skills">
                     <div class="titlebar">
                         <h2 class="main-subtitle -second">UX</h2>
-                        <progress class="progress_bar" max="100" value="15"></progress>
+                        <progress class="progress_bar" max="100" value="15" aria-label="Progresso em UX: 15%"></progress>
                     </div>
-                </div>
-            </article>
+                </article>
+            </div>
         </div>
     </section>
 
@@ -126,28 +130,45 @@
             <div class="main-title_section">
                 <h1 class="main-title -second">Projetos</h1>
             </div>
-        
-            <article class="container_projects">
-                <a href="index.html">
-                    <figure>
-                        <img src="./assets/images/ico_emptyproject.png" alt="ícone projeto1" class="project_icon -first">
-                    </figure>
-                </a>
+            <article class="main-carousel">
+                <div class="wrapper_carousel">
 
-                <a href="index.html">
-                    <figure>
-                        <img src="./assets/images/ico_emptyproject.png" alt="icone projeto2" class="project_icon -second">
-                    </figure>
-                </a>
+                    <button class="button-arrow -left"><span class="content">Esquerda</span></button>
+                    
+                    <div class="wrapper_nodecard">
+                        
+                        <figure class="node-card">
+                            <figcaption class="title">2023</figcaption>
+                            <div class="logo">
+                                <a href="index.html"><img src="./assets/images/ico_pystock.png" alt="pystock logo" class="logo_image"></a>
+                            </div>
+                        </figure>
+                        
 
-                <a href="index.html">
-                    <figure>
-                        <img src="./assets/images/ico_emptyproject.png" alt="icone projeto3" class="project_icon -third">
-                    </figure>
-                </a>
+                        <figure class="node-card">
+                            <figcaption class="title">2023</figcaption>
+                            <div class="logo -second">
+                                <a href="index.html"><img src="./assets/images/me.PNG" alt="pystock logo" class="logo_image"></a>
+                            </div>
+                        </figure>
+
+                        <figure class="node-card">
+                            <figcaption class="title">2024</figcaption>
+                            <div class="logo -third">
+                                <a href="index.html"><img src="./assets/images/ico_pystockweb.png" alt="pystock-web logo" class="logo_image"></a>
+                            </div>
+                        </figure>
+
+                    </div>
+                    <button class="button-arrow -right"><span class="content">Direita</span></button>
+                </div>
             </article>
+
+            <div class="paragraph_section">
+                <p class="main-paragraph">Sou um desenvolvedor back-end com experiência em projetos utilizando Python como linguagem base, incluindo o uso da biblioteca PySide6 para a interface da aplicação e o banco de dados SQLite para armazenamento de dados. Tenho proficiência em Java com Maven, utilizando a API Swing para interfaces gráficas. Busco expandir minha carreira para o front-end, adquirindo experiência em HTML, CSS, JavaScript e TypeScript. Minha especialidade abrange tanto Python quanto Java, e estou sempre em busca de novos desafios para aprimorar minhas habilidades na área de desenvolvimento.</p>
+            </div>
+
         </div>
     </section>
-
 </body>
 </html>

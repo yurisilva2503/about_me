@@ -1,0 +1,41 @@
+.main-carousel{
+    position: relative;
+}
+
+.main-carousel::after{
+    content: "";
+    display: block;
+    left: 60px;
+    width: calc(100% - 100px);
+    height: 5.4px;
+    top: 28px;
+    position: absolute;
+    background-color: #000;
+}
+
+.main-carousel::before{
+    content: "";
+    display: block;
+    width: calc(100%);
+    border: 3px dashed #000;
+    top: 27.3px;
+    position: absolute;
+}
+
+.main-carousel .button-arrow{
+    position: absolute;
+    bottom: 60px;
+}
+
+.wrapper_carousel{
+    display: block;
+    margin-bottom: 3%;
+}
+
+.main-carousel .button-arrow.-left{
+    left: 15px;
+}
+
+.main-carousel .button-arrow.-right{
+    right: 15px;
+}

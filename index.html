@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="./assets/styles/components/main-title.css">
     <link rel="stylesheet" href="./assets/styles/components/main-subtitle.css">
     <link rel="stylesheet" href="./assets/styles/components/main-buttons.css">
-    <link rel="stylesheet" href="./assets/styles/components/main-box.css">
     <link rel="stylesheet" href="./assets/styles/components/main-header.css">
     <link rel="stylesheet" href="./assets/styles/components/main-action.css">
     <link rel="stylesheet" href="./assets/styles/components/main-banner.css">
@@ -25,7 +24,7 @@
     <link rel="stylesheet" href="./assets/styles/components/main-sobre.css">
     <link rel="stylesheet" href="./assets/styles/components/main-paragraph.css">
     <link rel="stylesheet" href="./assets/styles/components/main-carousel.css">
-    <link rel="stylesheet" href="./assets/styles/components/node-card.css">
+    <link rel="stylesheet" href="./assets/styles/components/main-footer.css">
 </head>
 
 <body>
@@ -71,29 +70,11 @@
                 </article>
 
                 <article class="skill">
-                    <img src="./assets/images/ico_nodejs.png" alt="icon nodejs" class="icon_skills">
-                    <div class="titlebar">
-                        <h2 class="main-subtitle -second">NodeJs</h2>
-                        <progress class="progress_bar" max="100" value="10"
-                            aria-label="Progresso em NodeJs: 15%"></progress>
-                    </div>
-                </article>
-
-                <article class="skill">
                     <img src="./assets/images/ico_css3.png" alt="icon css2" class="icon_skills">
                     <div class="titlebar">
                         <h2 class="main-subtitle -second">CSS</h2>
                         <progress class="progress_bar" max="100" value="25"
                             aria-label="Progresso em Css: 25%"></progress>
-                    </div>
-                </article>
-
-                <article class="skill">
-                    <img src="./assets/images/ico_tdd.png" alt="icon tdd" class="icon_skills">
-                    <div class="titlebar">
-                        <h2 class="main-subtitle -second">TDD</h2>
-                        <progress class="progress_bar" max="100" value="0"
-                            aria-label="Progresso em TDD: 25%"></progress>
                     </div>
                 </article>
 
@@ -107,11 +88,11 @@
                 </article>
 
                 <article class="skill">
-                    <img src="./assets/images/ico_restapi.png" alt="icon restapi" class="icon_skills">
+                    <img src="./assets/images/ico_nodejs.png" alt="icon nodejs" class="icon_skills">
                     <div class="titlebar">
-                        <h2 class="main-subtitle -second">Rest API</h2>
+                        <h2 class="main-subtitle -second">NodeJs</h2>
                         <progress class="progress_bar" max="100" value="10"
-                            aria-label="Progresso em RestAPI: 10%"></progress>
+                            aria-label="Progresso em NodeJs: 15%"></progress>
                     </div>
                 </article>
 
@@ -121,6 +102,24 @@
                         <h2 class="main-subtitle -second">React</h2>
                         <progress class="progress_bar" max="100" value="10"
                             aria-label="Progresso em React: 10%"></progress>
+                    </div>
+                </article>
+
+                <article class="skill">
+                    <img src="./assets/images/ico_restapi.png" alt="icon restapi" class="icon_skills">
+                    <div class="titlebar">
+                        <h2 class="main-subtitle -second">Rest API</h2>
+                        <progress class="progress_bar" max="100" value="10"
+                            aria-label="Progresso em RestAPI: 10%"></progress>
+                    </div>
+                </article>
+                
+                <article class="skill">
+                    <img src="./assets/images/ico_tdd.png" alt="icon tdd" class="icon_skills">
+                    <div class="titlebar">
+                        <h2 class="main-subtitle -second">TDD</h2>
+                        <progress class="progress_bar" max="100" value="0"
+                            aria-label="Progresso em TDD: 25%"></progress>
                     </div>
                 </article>
 
@@ -146,33 +145,30 @@
 
                     <button class="button-arrow -left"><span class="content">Esquerda</span></button>
 
-                    <div class="wrapper_nodecard">
-
-                        <figure class="node-card">
-                            <figcaption class="title">2023</figcaption>
-                            <div class="logo">
-                                <a href="index.html"><img src="./assets/images/ico_pystock.png" alt="pystock logo"
-                                        class="logo_image"></a>
-                            </div>
-                        </figure>
-
-
-                        <figure class="node-card">
-                            <figcaption class="title">2023</figcaption>
-                            <div class="logo -second">
-                                <a href="index.html"><img src="./assets/images/me.png" alt="pystock logo"
-                                        class="logo_image"></a>
-                            </div>
-                        </figure>
-
-                        <figure class="node-card">
-                            <figcaption class="title">2024</figcaption>
-                            <div class="logo -third">
-                                <a href="index.html"><img src="./assets/images/ico_pystockweb.png"
-                                        alt="pystock-web logo" class="logo_image"></a>
-                            </div>
-                        </figure>
-
+                    <div class="itens">
+                        <div class="elements">
+                            <figure class="node-card">
+                                <figcaption class="title">2023</figcaption>
+                                <div class="logo">
+                                    <a href="https://github.com/yurisilva2503/Pystock-Gerenciador_de_Estoque" target="_blank"><img src="./assets/images/ico_pystock.png" alt="pystock logo"
+                                            class="logo_image"></a>
+                                </div>
+                            </figure>
+                            <figure class="node-card">
+                                <figcaption class="title">2023</figcaption>
+                                <div class="logo -darkblue">
+                                    <a href="https://github.com/yurisilva2503/About_me" target="_blank"><img src="./assets/images/me.png" alt="about-me logo"
+                                            class="logo_image"></a>
+                                </div>
+                            </figure>
+                            <figure class="node-card">
+                                <figcaption class="title">2024</figcaption>
+                                <div class="logo -darkred">
+                                    <a href="index.html"><img src="./assets/images/ico_pystockweb.png"
+                                            alt="pystock-web logo" class="logo_image"></a>
+                                </div>
+                            </figure>
+                        </div>
                     </div>
                     <button class="button-arrow -right"><span class="content">Direita</span></button>
                 </div>
@@ -190,6 +186,10 @@
 
         </div>
     </section>
+    <footer>
+        <a href="https://twitter.com/Esporogenio" target="_blank"><img src="./assets/images/ico_x.png" alt=""></a>
+        <a href="https://www.instagram.com/yuriiii.png/" target="_blank"><img src="./assets/images/ico_instagram.png" alt=""></a>
+    </footer>
+    <script src="./assets/scripts/components/main-carousel.js"></script>
 </body>
-
 </html>

@@ -10,9 +10,10 @@
 
 .container_skills{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     justify-items: center;
-    margin: 0% 20%;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 
 .skill{
